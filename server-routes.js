@@ -1,7 +1,7 @@
 var Hapi = require("hapi");
-//var mongodb =require ('mongodb')
-//var dbRunners = "mongodb://maryams:mary1900@linus.mongohq.com:10085/dbRunners"
-//var mongoClient= mongodb.MongoClient;
+var mongodb =require ('mongodb')
+var dbRunners = "mongodb://maryams:mary1900@linus.mongohq.com:10085/dbRunners"
+var mongoClient= mongodb.MongoClient;
 
 var server = Hapi.createServer('0.0.0.0', 8080);
 server.views({
